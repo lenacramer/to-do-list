@@ -1,0 +1,121 @@
+body{
+    font-family: helvetica;
+    font-weight: 550;
+}
+
+#header{
+    margin: 0 auto;
+    width: 420px;
+    height: 50px;
+    background-color: rgb(0, 0, 255);
+    border: black solid 2px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#clickMe{
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    background-color: grey;
+    line-height: 50px;
+    text-align: center;
+}
+#test-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+    border: black solid 2px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+}
+
+.sort{
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+#clear{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 5px;
+    border: black solid 2px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+#clear:hover{
+    background-color: rgb(255, 217, 0);
+    cursor: pointer;
+}
+
+.inputText{
+    width: 80%;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#submit{
+    all: unset;
+    cursor: pointer;
+    padding: 40px 200px;
+}
+
+#button3:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+.new-task{
+    display: flex;
+    margin-left: 8px;
+    font-weight: 200;
+}
+
+.new-buttons{
+    width: 220px;
+    padding: 0px 5px;
+}
+
+.trashcan{
+    text-align: center;
+    width: 50px;
+    margin-left: 8px;
+}
+
+.trashcan:hover{
+    background-color: rgb(220, 0, 0);
+    color: rgb(147, 0, 0);
+    cursor: pointer;
+}
+
